@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!--jquery-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+    <!--fonts awesome-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--mon css-->
+    <title>Portfolio</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <section id="animated">
+        <div id="background">
+            <ul class="cb-slideshow">
+                <li>
+                    <span></span>
+                    <div>
+                        <h3>Welcome,</h3>
+                    </div>
+                </li>
+                <li>
+                    <span></span>
+                    <div>
+                        <h3>In the life of a Web</h3>
+                        <h3><br> Developer</h3>
+                    </div>
+                </li>
+                <li>
+                    <span></span>
+                    <div>
+                        <h3>Sowed with trap</h3>
+                    </div>
+                </li>
+                <li>
+                    <span></span>
+                    <div>
+                        <h3>But which leads to the greatness</h3>
+                    </div>
+                </li>
+            </ul>
+            <span class="sp-circle-link2"><span class="sp-circle-link" >by Vince</span></span>
+            <button id="goToEnd">Passer l'introduction</button>
+        </div>
+    </section>
+    <main>
+        <div class="container-fluid menu fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark ">
+                    <a class="navbar-brand" href="#about"><i class="fas fa-cog fa-spin"></i>
+                        </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse text-center" id="myNavbar">
+                        <div class="navbar-nav navbar-dark nav-pills">
+                            <a class="nav-item nav-link" href="#skills">Compétences <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="#experience">Professionelle</a>
+                            <a class="nav-item nav-link" href="#education">Éducation</a>
+                            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-item nav-link" href="#recommandation">Recommandations</a>
+                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <!-- Section About -->
+        <section id="about" class="container-fluid">
+            <div class="col-xs-8 col-md-4 profile-picture">
+                <img src="http://deveniracteur.fr/wp-content/uploads/2015/09/Jouer-un-personnage-ou-rester-soi-m%C3%AAme-300x300.jpg" class="rounded-circle" alt="photo de Vincent">
+            </div>
+            <div class="heading">
+                <h1> Hello, c'est moi Vincent</h1>
+                <h3>Développeur Web</h3>
+                <a href="docs/CV.pdf" target="_blank" class="button1"> Télécharger CV</a>
+            </div>
+        </section>
+        <!-- Fin de Section About -->
+        <!-- Section compétences -->
+        <section id="skills">
+            <div class="red-divider"></div>
+            <h2>Compétences</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">HTML 85%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">CSS 85%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">JAVASCRIPT 85%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 second">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">JQUERY 85%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">BOOTSTRAP 85%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">ANGULAR 85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de Section Compétences -->
+        <!-- Section Expériences professionnelles -->
+        <section id="experience">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Expérience Professionelle</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Isagri</h3>
+                                    <h4>Conseiller Technique Logiciel</h4>
+                                    <p class="text-muted"><i class="far fa-clock"></i> 02/2016</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Accueil des clients au téléphone</p>
+                                    <p>Accompagnement des clients pour la résolution des problèmes techniques sur les logiciels Isagri</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Axess Informatique</h3>
+                                    <h4>Technicien / Conseiller Technique</h4>
+                                    <p class="text-muted"><i class="far fa-clock"></i> 02/2011-10/2014</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Accueil téléphonique et aide à l'utilisateur </p>
+                                    <p>Installation et réparation de postes clients et serveurs (parc comprenant plus de 5000 machines)</p>
+                                    <p>Création de Master XP/Seven pour déploiement sur de nouvelles machines. Utilisation de la méthode de déploiement via Symantec Ghost Enterprise.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>CopiaFax</h3>
+                                    <h4>Technicien en micro-informatique Itinérant</h4>
+                                    <p class="text-muted"><i class="far fa-clock"></i> 09/2010-01/2011</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Installation et réparation de postes clients et serveurs (professionnels)</p>
+                                    <p>Installation et administration de l’infrastructure chez nos clients professionnels.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>DMi Services</h3>
+                                    <h4>Technicien / Conseiller Technique et matériel</h4>
+                                    <p class="text-muted"><i class="far fa-clock"></i> 03/2010-06/2010</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Installation et réparation de postes clients (professionnels et particuliers) </p>
+                                    <p> Proposition de vente de matériels informatiques</p>
+                                    <p>Création d’un BartPe composé d’outils de diagnostic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Bcsys</h3>
+                                    <h4>Technicien en micro-informatique Itinérant</h4>
+                                    <p class="text-muted"><i class="far fa-clock"></i> 12/2007-11/2009</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Installation et administration de l’infrastructure chez nos clients professionnels.</p>
+                                    <p>Préparation et gestion du parc informatique (poste Serveur et poste client).</p>
+                                    <p>Proposition de vente de matériels informatiques après un audit chez le client.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Fin de Section Expériences professionnelles -->
+        <!-- Section Education -->
+        <section id="education">
+            <div class="container">
+                <div class="red-divider"></div>
+                <div class="heading">
+                    <h2>Éducation</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="education-block">
+                            <h5>2018</h5>
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3> École WEBFORCE3</h3>
+                            <h4>Certification Developpeur Web</h4>
+                            <div class="red-divider"></div>
+                            <p>HTML, CSS, JavaScript, JQuery</p>
+                            <p>Responsive, Angular</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="education-block">
+                            <h5>2002 - 2004</h5>
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Lycée Jean Rostand</h3>
+                            <h4>Brevet Technicien Supérieur</h4>
+                            <div class="red-divider"></div>
+                            <p>Informatique de Gestion</p>
+                            <p>Spécialité Administrateur Réseau</p>
+                        </div>
+                    </div>
+                    <!--   <div class="col-sm-6">
+                                <div class="education-block">
+                                    <h5>2001-2002</h5>
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <h3>Lycée Cassini</h3>
+                                    <h4>Baccalauréat</h4>
+                                    <div class="red-divider"></div>
+                                    <p>Informatique de Gestion</p>
+                                </div>
+                            </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Fin de Section Education -->
+        <!-- Section Portfolio -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="http://itanael.alwaysdata.net/formationJquery/" target="_blank"><img src="http://itanael.alwaysdata.net/img/imgFormationJQuery.jpg" class="img-thumbnail" alt="jquery carousel share"></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://fr.linkedin.com/" target="_blank"><img src="http://www.technogenie.com/images/upload/resize/nouvelles/big/astuces_linkedin.jpg" class="img-thumbnail" alt="LinkedIn share"></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://twitter.com/?lang=fr" target="_blank"><img src="https://pbs.twimg.com/media/DC7S4YFXgAAr9_H.jpg" class="img-thumbnail" alt="facebook share"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de Section Portfolio -->
+        <!-- Section Recommandation -->
+        <section id="recommandation">
+            <div class="container">
+                <div class="red-divider"></div>
+                <div class="heading">
+                    <h2>Recommandations</h2>
+                </div>
+                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                    <!-- indicateur spécifiant le slide actif / carousel-indicators ! par défaut un trait -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class=" rounded-circle active"></li>
+                        <!-- rounded-circle permet de modifier l'indicateur en forme de rond ! modifié en css pour la hauteur et la largeur -->
+                        <li data-target="#myCarousel" data-slide-to="1" class=" rounded-circle"></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class=" rounded-circle"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <h3> Vince t'es le meilleur ...</h3>
+                            <h4>Moi</h4>
+                        </div>
+                        <div class="carousel-item">
+                            <h3>Pas mieux</h3>
+                            <h4>Moi</h4>
+                        </div>
+                        <div class="carousel-item">
+                            <h3>Reviens quand tu veux !</h3>
+                            <h4>Moi</h4>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon button-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Fin de Section Recommandation -->
+
+        <section id="contact" class="container-fluid">
+            <div class="container">
+                <div class="white-divider"></div>
+                <div class="heading">
+                    <h2>Contact</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <form id="contact-form" method="post" action="mailto:vn.emploi@laposte.net" role="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="firstname">Prénom <span class="blue">*</span></label>
+                                    <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name">Nom <span class="blue">*</span></label>
+                                    <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email">Email <span class="blue">*</span></label>
+                                    <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone">Téléphone</label>
+                                    <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone">
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message">Message <span class="blue">*</span></label>
+                                    <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                                    <p class="comments"></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="blue"><strong>* Ces informations sont requises.</strong></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="button1" value="Envoyer">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <!-- Footer -->
+        <footer class="text-center">
+            <a href="#about">
+                <i class="fas fa-chevron-up"></i> </a>
+            <h5>© 2018 Vincent NOUVIAN</h5>
+
+        </footer>
+
+
+    </main>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
